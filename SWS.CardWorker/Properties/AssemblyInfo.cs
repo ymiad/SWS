@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CardWorker")]
+[assembly: AssemblyTitle("SWS.CardWorker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CardWorker")]
+[assembly: AssemblyProduct("SWS.CardWorker")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("887fc675-39ae-4c36-971d-fca81b6a400c")]
+[assembly: Guid("a0fe218d-630f-411b-9fbe-c63af4fbcbf1")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{887FC675-39AE-4C36-971D-FCA81B6A400C}</ProjectGuid>
+    <ProjectGuid>{A0FE218D-630F-411B-9FBE-C63AF4FBCBF1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CardWorker</RootNamespace>
-    <AssemblyName>CardWorker</AssemblyName>
+    <RootNamespace>SWS.CardWorker</RootNamespace>
+    <AssemblyName>SWS.CardWorker</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
