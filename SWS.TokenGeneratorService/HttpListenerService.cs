@@ -41,7 +41,6 @@ namespace SWS.TokenGeneratorService
 
                 var request = _listener.GetContext().Request;
 
-
                 if (request.QueryString.AllKeys.Contains("id"))
                 {
                     await SendCardId(request.QueryString["id"]);
@@ -64,8 +63,11 @@ namespace SWS.TokenGeneratorService
             var data = "{\"id\": \"" + cardId + "\", \"token\": \"" + _guid + "\"}";
             var value = new Dictionary<string, string> {{"token", HashString(data)}};
             var content = new FormUrlEncodedContent(value);
+            var url = $"{Environment.GetEnvironmentVariable("SWSServerUrl")}/Card/AttachCard";
 
-            await client.PostAsync(Environment.GetEnvironmentVariable("SWSServerUrl"), content);
+            System.Diagnostics.Process.Start("CMD.exe", $"{data} {url}");
+
+            await client.PostAsync(url, content);
         }
 
         private static string HashString(string value)

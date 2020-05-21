@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[User]
+(
+	[Id] NVARCHAR(50) NOT NULL PRIMARY KEY,
+	[Name] NVARCHAR(50) NOT NULL,
+	[Surname] NVARCHAR(50) NOT NULL,
+	[SecondName] NVARCHAR(50) NULL,
+	[CardId] NVARCHAR(50) NULL,
+	[Username] NVARCHAR(50) NOT NULL,
+	[PasswordHash] VARBINARY(64) NOT NULL,
+	[PasswordSalt] VARBINARY(128) NOT NULL,
+	[CreatedAt] DATE NOT NULL
+)
